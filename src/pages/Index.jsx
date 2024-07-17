@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Car, Spray, Brush, Shield } from "lucide-react";
+import { Car, Droplets, Brush, Shield } from "lucide-react";
 
 const Index = () => {
   return (
@@ -24,7 +24,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               { icon: <Car className="w-12 h-12 mb-4" />, title: "Exterior Detailing", description: "Thorough cleaning and protection for your car's exterior" },
-              { icon: <Spray className="w-12 h-12 mb-4" />, title: "Interior Detailing", description: "Deep cleaning and sanitization of your car's interior" },
+              { icon: <Droplets className="w-12 h-12 mb-4" />, title: "Interior Detailing", description: "Deep cleaning and sanitization of your car's interior" },
               { icon: <Brush className="w-12 h-12 mb-4" />, title: "Full Detailing", description: "Comprehensive detailing for both exterior and interior" },
               { icon: <Shield className="w-12 h-12 mb-4" />, title: "Ceramic Coating", description: "Long-lasting protection for your car's paint" },
             ].map((service, index) => (
